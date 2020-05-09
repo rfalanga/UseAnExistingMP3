@@ -16,7 +16,7 @@ namespace UseAnExistingMP3
             InitializeComponent();
 
             mediaPlayer = new MediaPlayer();
-            mediaPlayer.Open(new Uri(@"../../Assets/Doctor_Who_-_Gold_Abridged.mp3", UriKind.RelativeOrAbsolute));
+            mediaPlayer.Open(new Uri(Environment.CurrentDirectory + @"\Assets\Doctor_Who_-_Gold_Abridged.mp3", UriKind.RelativeOrAbsolute));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
