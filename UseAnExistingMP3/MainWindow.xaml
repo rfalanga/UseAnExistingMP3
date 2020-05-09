@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Use An Existing MP3" Height="450" Width="800">
     <Grid>
-
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Content="Play Doctor Who God theme abridge"
+                FontSize="12" Click="Button_Click" />
     </Grid>
 </Window>
