@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseAnExistingMP3", "UseAnExistingMP3\UseAnExistingMP3.csproj", "{AFD092CC-CC3F-4B29-8A54-5309DDD93DCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD092CC-CC3F-4B29-8A54-5309DDD93DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD092CC-CC3F-4B29-8A54-5309DDD93DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD092CC-CC3F-4B29-8A54-5309DDD93DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD092CC-CC3F-4B29-8A54-5309DDD93DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5700DE3C-808E-4532-9BB4-6CC0247CAB69}
+	EndGlobalSection
+EndGlobal
