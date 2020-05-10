@@ -5,11 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UseAnExistingMP3"
         mc:Ignorable="d"
+        FontSize="15"
         Title="Use An Existing MP3" Height="450" Width="800">
     <Grid>
         <Button HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Content="Play Doctor Who God theme abridge"
-                FontSize="12" Click="Button_Click" />
+                Content="Play Doctor Who God theme abridged"
+                Padding="10"
+                Click="Button_Click" />
     </Grid>
 </Window>
