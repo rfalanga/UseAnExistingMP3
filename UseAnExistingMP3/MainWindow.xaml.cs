@@ -1,4 +1,5 @@
 ﻿using System;
+//using System.Diagnostics;
 using System.Windows;
 using System.Windows.Media;
 
@@ -24,10 +25,12 @@ namespace UseAnExistingMP3
             PlayTheSound();
         }
 
+        //This helper function isn't necessary
         private void PlayTheSound()
         {
-            //This helper function isn't necessary
+            //Debug.WriteLine($"Before trying to play sound {mediaPlayer.HasAudio}"); //this was True
             mediaPlayer.Play();
+            //Debug.WriteLine($"After trying to play sound {mediaPlayer.HasAudio}");  //this was True
         }
     }
 }

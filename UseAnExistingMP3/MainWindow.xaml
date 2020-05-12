@@ -10,7 +10,7 @@
     <Grid>
         <Button HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Content="Play Doctor Who God theme abridged"
+                Content="Play Doctor Who Gold theme abridged"
                 Padding="10"
                 Click="Button_Click" />
     </Grid>
